@@ -1,0 +1,43 @@
+.mainContainer {
+  background-image: url(../assets/bg-image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  .formfield{
+    width: 50%;
+  }
+  .searchSection {
+    height: 12vh;
+    border-radius: 10px;
+    border: solid #ccc 1px;
+  }
+  .dataSection {
+    height: 88vh;
+    overflow-y: auto;
+    border-radius: 10px;
+
+    .imageDiv {
+      width: 150px;
+    
+    }
+  }
+  .commonClass {
+    background-color: rgba(255, 255, 255, 0.409);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+  }
+
+  @media screen and (max-width:767px) {
+    .formfield{
+     width: 100%;
+    }
+
+    .dataSection .imageDiv{
+      width: 80px;
+
+    }
+
+  }
+
+  
+}
+
